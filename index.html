@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe game: easy mode</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="controls"><button class="buttonX over">X</button>&nbsp&nbsp<button class="buttonO over">O</button><span onClick="reset()" class="reset over">Reset Game</span></div>
+<div class="main">
+  <div class="first">Would you like to be X or O?<br><br><a id="x" onClick="controls(this.id)" style="font-size: 45px;cursor:pointer;">X</a>&nbsp&nbsp<a id="o" onClick="controls(this.id)" style="font-size: 45px;cursor:pointer;">O</a></div>
+  <div class="game-over over"></div>
+<div class="container game">
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn btn-primary" id="a" onClick="makeachoice(this.id)"></a>
+       <a class="btn btn-primary" id="b" onClick="makeachoice(this.id)"></a>
+       <a class="btn btn-primary" id="c" onClick="makeachoice(this.id)"></a>
+    </div></div>
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn btn-primary" id="d" onClick="makeachoice(this.id)"></a>
+       <a class="btn btn-primary" id="e" onClick="makeachoice(this.id)"></a>
+       <a class="btn btn-primary" id="f" onClick="makeachoice(this.id)"></a>
+    </div></div>
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn btn-primary" id="g" onClick="makeachoice(this.id)"></a>
+       <a class="btn btn-primary" id="h" onClick="makeachoice(this.id)"></a>
+       <a class="btn btn-primary" id="i" onClick="makeachoice(this.id)"></a>
+    </div></div>
+  </div></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

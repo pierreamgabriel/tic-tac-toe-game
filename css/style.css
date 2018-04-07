@@ -1,0 +1,98 @@
+.controls {
+  width: 310px;
+  height: 51px;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+.buttonX {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+  background-color: #00FF00;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: context-menu;
+}
+.buttonO {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+  background-color: #00FF00;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: context-menu;
+}
+.reset {
+  margin-left: 100px;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+  background-color: #00FF00;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.disabled {
+  opacity: 0.5;
+}
+.main {
+  width: 310px;
+  margin-left: 40%;
+  margin-top: 10px;
+}
+.first {
+  width: 310px;
+  height: 310px;
+  background-color: #000000;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+  z-index: 1001;
+  position: absolute;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+.container {
+  z-index: 1000;
+  margin-left: -15px;
+}
+.btn-primary {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  font-size: 50px;
+}
+.winner {
+  background-color: #000000;
+}
+.game-over {
+  width: 310px;
+  height: 310px;
+  background-color: #000000;
+  opacity: 0.6;
+  padding-top: 120px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+  z-index: 1001;
+  position: absolute;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+.over {
+  display:none;
+}
