@@ -36,16 +36,22 @@ $('.button' + infos.computer).removeClass('disabled');
   winnerU();
     
 }
-
+function sortOptions(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+  return array;   
+}
 function computerchoice(){
   if (gameOn === true) {
   setTimeout(function() {
-  let random = options.sort();
-  let random2 = random[Math.floor(Math.random()*random.length)];
-$('#' + random2).html(infos.computer).attr('disabled','disabled');
-    computer.push(random2);
+  options = sortOptions(options);  
+  let random = options[Math.floor(Math.random()*options.length)];
+$('#' + random).html(infos.computer).attr('disabled','disabled');
+    computer.push(random);
     for(let i = options.length - 1; i >= 0; i--) {
-   if(options[i] === random2) {
+   if(options[i] === random) {
        options.splice(i, 1);
     }
 }
