@@ -1,5 +1,3 @@
-/* Tic Tac Toe game: easy mode, developed by Pierre Macedo. */
-
 const combinations = [["a", "b", "c"],["d", "e", "f"],["g", "h", "i"],["a", "d", "g"],["b", "e", "h"],["c", "f", "i"],["a", "e", "i"],["c", "e", "g"]];
 
 options = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
